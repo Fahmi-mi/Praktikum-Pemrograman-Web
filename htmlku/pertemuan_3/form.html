@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-image: url(stacked-waves-haikei.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: poppins;
+      }
+      .all {
+        background-color: #7a73d1;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 0.375rem;
+      }
+      .header {
+        background-image: url(background.png);
+        background-position: center;
+        background-size: cover;
+        color: white;
+        border: white;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 0.5rem;
+        padding: 3.5rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+      .header p {
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 800;
+      }
+      .container-form {
+        background-color: white;
+        margin-top: 2rem;
+        border-radius: 0.5rem;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+      }
+      form label {
+        margin-bottom: 0.225rem;
+        font-size: large;
+        font-weight: 500;
+      }
+      form input {
+        margin-bottom: 1rem;
+        border-radius: 0.375rem;
+      }
+      input {
+        padding: 0.5rem;
+        font-size: medium;
+        border-width: 0.05rem;
+      }
+      button {
+        background-color: #7a73d1;
+        color: white;
+        border-color: transparent;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: large;
+        cursor: pointer;
+        border-radius: 0.375rem;
+      }
+      button:hover {
+        background-color: white;
+        color: #7a73d1;
+        border-color: #7a73d1;
+      }
+    </style>
+    <title>TechVision</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="header">
+        <p>TechVision</p>
+      </div>
+      <div class="container-form">
+        <form>
+          <label for="name">Full name</label>
+          <input type="text" name="name" placeholder="Enter your full name" required />
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Example@gmail.com" required />
+          <label for="contact">Handphone number</label>
+          <input type="text" name="contact" placeholder="Your number" required />
+          <label for="institution">Institution</label>
+          <input type="text" name="institution" placeholder="Your institution" required />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Tag HTML</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Formulir Pendaftaran</legend>
+
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" /><br /><br />
+
+      <label for="kota">Pilih Kota:</label>
+      <input list="kota-list" id="kota" name="kota" />
+      <datalist id="kota-list">
+        <option value="Jakarta"></option>
+        <option value="Surabaya"></option>
+        <option value="Bandung"></option>
+        <option value="Yogyakarta"></option>
+      </datalist>
+
+      <br /><br />
+
+      <label for="kategori">Kategori:</label>
+      <select id="kategori" name="kategori">
+        <optgroup label="Mahasiswa">
+          <option value="s1">S1</option>
+          <option value="s2">S2</option>
+        </optgroup>
+        <optgroup label="Pekerja">
+          <option value="pns">PNS</option>
+          <option value="swasta">Swasta</option>
+        </optgroup>
+      </select>
+      <br /><br />
+
+      <label for="range">Nilai:</label>
+      <input type="range" id="range" name="range" min="0" max="100" oninput="nilai.value = range.value" />
+      <output id="nilai">50</output>
+    </fieldset>
+  </body>
+</html> -->
