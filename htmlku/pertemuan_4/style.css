@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 98%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.5rem;
+  justify-content: space-between;
+  border-bottom: black;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  background-color: white;
+}
+
+.logo {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+  margin-left: 2rem;
+  padding: 0.7rem;
+}
+
+.navlink:hover {
+  background-color: lightgreen;
+  padding: 0.7rem;
+  border-radius: 0.375rem;
+  transition-duration: 400ms;
+}
+
+.header {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header p {
+  font-size: large;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.header button {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: medium;
+  cursor: pointer;
+  border-radius: 0.375rem;
+}
+
+.main {
+  display: flex;
+  padding: 2rem;
+}
+
+.sidebar-content {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-content h1 {
+  margin-bottom: 1rem;
+}
+
+.content {
+  margin-left: 3rem;
+}
+
+.content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: lightgreen;
+  font-size: 1.2rem;
+}
